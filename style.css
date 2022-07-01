@@ -37,6 +37,8 @@ body {
     overflow: hidden;
     width:70px;
     height:70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     
 }
 .instagram-continue {
@@ -59,6 +61,9 @@ body {
     width: 100%;
     padding: 1.3rem;
     border: 1px solid lightgray;
+    
+    
+    
 }
 
 .group:nth-child(1){
@@ -71,6 +76,7 @@ body {
 }
 .profile-photo img{
     height: 6rem;
+    
 }
 
 .instagram-login{
@@ -144,5 +150,8 @@ body {
     }
     .instagram-continue{
         width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
     }
 }
